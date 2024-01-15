@@ -10,7 +10,7 @@ app.use(cors({ origin: process.env.CORS_ORIGIN }));
 app.use(express.json());
 app.use("/", videofamily);
 
-app.use(express.static('images'))
+app.use(express.static("./images"));
 
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);

@@ -34,7 +34,7 @@ router
       id: uuidv4(),
       title: req.body.title,
       channel: "Desperate Mountaineers",
-      image: "https://i.imgur.com/l2Xfgpl.jpg",
+      image: "image9.jpg",
       description: req.body.description,
       views: 0,
       likes: 0,
